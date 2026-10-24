@@ -33,7 +33,7 @@ jobs:
           path: |
             .buildozer
             ~/.buildozer
-          key: buildozer-${{ hashFiles('buildozer.spec') }}
+          key: buildozer-v2-${{ hashFiles('buildozer.spec') }}
 
       - name: Build debug APK
         run: buildozer -v android debug
