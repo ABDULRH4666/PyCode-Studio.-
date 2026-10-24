@@ -5,7 +5,7 @@ package.domain = org.pycode
 source.dir = .
 source.include_exts = py,json
 version = 0.1
-requirements = python3,kivy==2.3.0,pygments,jedi,parso,pip,setuptools,wheel,packaging,certifi,openssl
+requirements = python3,kivy==2.3.0,pygments,certifi,openssl,pip
 orientation = portrait
 fullscreen = 0
 android.permissions = INTERNET
